@@ -1,0 +1,254 @@
+<!DOCTYPE html >
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fhrmhmmd</title>
+
+    <link rel="stylesheet" href="public/css/output.css">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("5rvm875uj5sdG935j");
+   })();
+</script>
+
+</script>
+<script>
+  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  document.documentElement.classList.add('dark')
+} else {
+  document.documentElement.classList.remove('dark')
+}
+</script>
+</head>
+<body >
+
+    
+  <!-- <div class="w-full bg-white object-cover border-b-white "> -->
+    
+    
+<!-- Navbar -->
+<section id="Home" class="dark:bg-blue-950">
+  <header class="absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4 ">
+        <a href="" class="font-semibold text-teal-400 text-xl block py-6 hover:scale-110 Raleway transition">Fhrmhmmd</a>
+       </div>
+      
+        <div class="flex items-center px-4">
+          <button id="nav" name="nav" class="absolute block right-4 lg:hidden">
+            <span class="nav-line transition ease-in-out origin-top-left dark:bg-white"></span>
+            <span class="nav-line transition ease-in-out dark:bg-white"></span>
+            <span class="nav-line transition ease-in-out origin-bottom-left dark:bg-white"></span>
+          </button>
+          <nav id="nav-menu" class="hidden absolute py-5 bg-white dark:bg-blue-950 dark:text-white shadowrounded max-w-full transition w-full right-4 top-full lg:block lg:static lg:bg-transparent
+          lg:max-w-full lg:shadow-none lg:rounded-none lg:border-none ">
+            <ul class="block items-center lg:flex uppercase Roboto-slab">
+              <li class="group"><a href="#Home" class="text-lg py-3 mx-8  flex text-black group-hover:text-teal-500  group-hover:border group-hover:border-teal-500 p-2  rounded-lg transition lg:p-2 lg:-mx-3 dark:text-white">Home</a></li>
+              <li class="group"><a href="#About" class="text-lg py-2 mx-8 flex text-black group-hover:text-teal-500 group-hover:border group-hover:border-teal-500 p-2  rounded-lg transition dark:text-white ">About</a></li>
+              <li class="group"><a href="#Project" class="text-lg py-2 mx-8 flex text-black group-hover:text-teal-500   group-hover:border group-hover:border-teal-500 p-2 rounded-lg transition lg:-mx-3 dark:text-white">Project</a></li>
+              <li class="group"><a href="#Contact" class="text-lg py-2 mx-8 flex text-black group-hover:text-teal-500   group-hover:border group-hover:border-teal-500 p-2 rounded-lg transition dark:text-white">Contact</a></li>
+               <li class=" mt-1 flex items-center">
+                 <div class="flex">
+                    <span class="text-sm invisible">light</span>
+                    <input type="checkbox" id="Dark-switch" class="hidden">
+                    <label for="Dark-switch">
+                      <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1 
+                      ">
+                        <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out "></div>
+                      </div>
+                    </label>
+                    <span class="ml-2 text-sm">dark Mode</span>
+                 </div>
+               </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- <div class=" text-slate-700 pt-5 uppercase text-center " >
+        <a href="" class=" hover:bg-black hover:text-white p-2 rounded-lg transition">Home</a>
+          <a href="" class=" hover:bg-black hover:text-white p-2 rounded-lg transition ">Contact</a>
+            <a href="" class=" hover:bg-black hover:text-white p-2 rounded-lg transition" >About</a>
+              <a href="" class=" hover:bg-black hover:text-white p-2 rounded-lg transition">More</a>
+            </div> -->
+
+  <!-- Intro -->
+ 
+     <div class="pt-32 bg-bl">
+        <div class="container mx-auto">
+           <div class="w-full px-10 text-center">
+             <h1 class="font-bold text-lg lg:text-2xl pt-10 dark:text-slate-50">Hello, Nama Saya </h1>
+             <div class="bg-slate-100 mx-auto rounded-xl md:w-3/4 lg:w-1/3 dark:bg-slate-300">
+             <div id="text" class="font-extrabold block text-teal-400 text-3xl lg:text-4xl Raleway  "></div>
+            </div>
+             <h2 class="font-semibold mb-2  lg:text-lg dark:text-slate-50">Fullstack Web Developer</h2>
+             <p class="font-semibold text-sm text-slate-500 mb-5 lg:text-lg dark:text-slate-100">Seorang Fullstack Web Developer 
+            <span class="block">yang menggunakan <span class="font-bold text-teal-500">Tailwindcss</span>,
+            <span class="text-purple-500">Bootstrap</span> dan
+             <span class="text-red-500">CodeIgniter4</span></span>
+             </p>
+             <a href="#Contact" class="text-slate-200 bg-teal-500  p-2.5 rounded shadow-md uppercase font-semibold
+             hover:bg-teal-400 hover:shadow-1xl hover:scale-125 transition lg:text-lg">Kontak Saya</a>
+             <div class="pt-28 invisible">
+              <h1>@Fakhri</h1>
+             </div>
+           </div>
+        </div>
+        </div>
+ 
+</div>
+</section>
+           <!-- ABOUT ME -->
+           <section id="About" >
+           <div class="w-full bg-slate-100 p-5 py-20 dark:bg-slate-300">
+            <div class="container mx-auto">
+            <div class="flex flex-wrap px-5">
+            <div class="w-full px-3 mb-5 lg:w-1/2 lg:text-xl">
+            <h1 class="text-teal-500 dark:text-teal-400 font-bold text-lg lg:text-xl Raleway">TENTANG SAYA</h1>
+            <h2 class="font-bold text-base">Fullstack Web Developer</h2>
+            <p class="text-slate-600 font-medium text-sm mb-3 lg:text-base dark:text-slate-800">Seorang Pemula Dalam Bidang Programmer, Lulus di SMK INFORMATIKA Jurusan RPL (Rekayasa Perangkat Lunak),
+            Saya Menggunakan Bahasa <span class="text-indigo-600">PHP</span>  Dengan Framework <span class="text-red-500">CodeIgniter4</span> Dan Framework CSS <span class="text-teal-500">
+              Tailwindcss
+            </span>Atau <span class="text-purple-500">Bootstrap</span>. 
+            </p>
+           </div>
+
+            <!-- SOCIAL MEDIA -->
+           <div class="w-full px-3 lg:w-1/2">
+            <h6 class=" text-teal-500 font-bold text-lg mb-1 lg:text-xl Raleway dark:text-teal-400">SOCIAL MEDIA</h6>
+            <p class="text-slate-600 font-medium text-sm mb-3 lg:text-base dark:text-slate-800">Dibawah Sini Terdapat Social Media saya yang dapat kalian kunjungi 
+            </p>
+           <div class="flex gap-5 items-center pt-2">
+            <a href="" class="w-9 h-9 bg-slate-200 rounded-full flex justify-center items-center
+             hover:bg-teal-100 hover:scale-110 transition border border-slate-400"><i class="fi fi-brands-tik-tok"></i></a>
+             <a href="" class="w-9 h-9 bg-slate-200 rounded-full flex justify-center items-center
+             hover:bg-teal-100 hover:scale-110 transition border border-slate-400"><i class="fi fi-brands-instagram"></i></a>
+             <a href="" class="w-9 h-9 bg-slate-200 rounded-full flex justify-center items-center
+             hover:bg-teal-100 hover:scale-110 transition border border-slate-400"><i class="fi fi-brands-facebook"></i></a>
+             <a href="https://github.com/Fhrmhmmd" class="w-9 h-9 bg-slate-200 rounded-full flex justify-center items-center
+             hover:bg-teal-100 hover:scale-110 transition border border-slate-400"><i class="fi fi-brands-github"></i></a>
+           <!-- <img src="img/1.jpg" alt=""> -->
+         </div>
+        </div>
+        </div>
+      </div>
+   </div>
+</section>
+<section>
+  <div class=""></div>
+</section>
+
+
+<!-- MY PROJECT SECTION -->
+
+<section id="Project" class="py-36 max-w-full lg:pt-48 lg:pb-48 dark:bg-blue-950">
+  
+  <div class="container mx-auto">
+    <div class="w-full px-4 dark:text-white">
+      <h1 class="text-center p-2 text-xl font-bold uppercase lg:text-2xl Raleway">My Project</h1>
+      <div class="w-48 h-0.5 bg-black mx-auto dark:bg-white"></div>
+      <p class="text-center text-base text-slate-700 dark:text-slate-200">Project Yang Telah Dibuat</p>
+      
+      </div>
+      <div class="w-full px-4 flex flex-wrap justify-center">
+        <div class="mb-12 p-8  sm:w-3/4 lg:w-1/2">
+
+          <div class=" dark:shadow-slate-500" >
+            <img src="public/img/project1.jpg" alt="" width="w-full" class="object-cover rounded-xl border border-slate-400 hover:scale-110 transition">
+          
+          <h3 class="font-semibold text-xl text-black mt-3 px-6 pt-2 dark:text-white">Aplikasi Poliklinik Sederhana</h3>
+          <p class="font-medium text-slate-600 px-6 py-5 dark:text-slate-200">Sebuah Aplikasi yang digunakan untuk mengelola data Poliklinik
+            seperti data pasien, data dokter, data obat dll, Dan juga bisa digunakan sebagai Transaksi Pembayaran Resep.
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Contact">
+  <div class=" bg-slate-800 pt-14">
+    <div class="text-center pt-4 mb-4">
+      <h1 class="text-white uppercase font-semibold text-lg lg:text-xl Raleway">Contact Me</h1>
+    </div>
+       <form for="" action="" class="py-2" onsubmit="sendEmail(); reset(); return false;">
+        <div class="w-full lg:w-3/5 lg:mx-auto">
+        <div class="w-full px-8 mb-5">
+          <label for="name" class="text-base text-slate-100 Raleway">
+            Nama
+          </label>
+          <input type="text" id="name" class="w-full bg-slate-200 text-black rounded-md focus:outline-none
+          focus:ring-teal-400 focus:ring-1 focus:border-teal-400 transition p-1"></div>
+          <div class="w-full px-8 mb-5">
+          
+          <label for="email" class="text-base  text-slate-100 Raleway">
+            Email
+          </label>
+          <input type="email" id="email_id" class="w-full bg-slate-200 text-black rounded-md focus:outline-none
+          focus:ring-teal-400 focus:ring-1 focus:border-teal-400 transition p-1">
+          </div>
+          <div class="w-full px-8 mb-5">
+          <label for="message" class="text-base text-slate-100 Raleway">
+            Pesan
+          </label>
+          <textarea type="textarea" id="message" class="w-full bg-slate-200 text-black rounded-md focus:outline-none
+          focus:ring-teal-400 focus:ring-1 focus:border-teal-400 transition p-1"></textarea> 
+       </div>
+       <div class="w-full px-8">
+        <button onclick="sendMail()" class="text-base font-semibold text-white bg-teal-500 py-1 px-4 w-full rounded-full hover:bg-teal-300 transition">Kirim</button>
+       </div>
+      </div>
+       <h1 class="invisible pt-20">Fakhri</h1>
+   </form>
+   </div>
+</section>
+
+<!-- Footer -->
+<section>
+  <div class="bg-slate-600">
+    <div class=" w-full px-4 pb-10">
+      <h1 class="text-slate-200 pt-10 text-center">Fakhri@copyright</h1>
+      <h5 class="text-center text-slate-400">November, 2023</h5>
+    </div>
+    <div class="flex gap-5 items-center pb-10 justify-center">
+        <a href="" class="w-9 h-9 bg-slate-200 rounded-full flex justify-center items-center
+         hover:bg-teal-100 hover:scale-110 transition border border-slate-400"><i class="fi fi-brands-tik-tok"></i></a>
+         <a href="" class="w-9 h-9 bg-slate-200 rounded-full flex justify-center items-center
+         hover:bg-teal-100 hover:scale-110 transition border border-slate-400"><i class="fi fi-brands-instagram"></i></a>
+         <a href="" class="w-9 h-9 bg-slate-200 rounded-full flex justify-center items-center
+         hover:bg-teal-100 hover:scale-110 transition border border-slate-400"><i class="fi fi-brands-facebook"></i></a>
+         <a href="https://github.com/Fhrmhmmd" class="w-9 h-9 bg-slate-200 rounded-full flex justify-center items-center
+         hover:bg-teal-100 hover:scale-110 transition border border-slate-400"><i class="fi fi-brands-github"></i></a>
+       <!-- <img src="img/1.jpg" alt=""> -->
+     </div>
+  </div>
+  
+</section>
+
+<a href="#Home" class="fixed z-[9999] bottom-4 right-4 h-9 w-9 bg-teal-500 rounded-full hover:scale-110 hover:animate-bounce transition"><ion-icon name="arrow-up-outline" class="px-2.5 py-2.5"></ion-icon></a>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="public/js/script.js"></script>
+</body>
+</html>
